@@ -5,8 +5,8 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
-const postRoute = require("./routes/post");
-const categoriesRoute = require("./routes/categories");
+const postRoute = require("./routes/posts");
+const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 
 
